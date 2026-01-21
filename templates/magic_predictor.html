@@ -58,14 +58,13 @@
     {% if prediction %}
         <div class="recommendation-card">
             <h2>Prediction Result</h2>
-            <p><strong>Bed Time:</strong> {{ prediction.bed_time }}</p>
-            <p><strong>Sleep Duration:</strong> {{ prediction.sleep_duration }}</p>
-            <p><strong>Stress Level:</strong> {{ prediction.stress_level }}</p>
-            <p><strong>Energy Level:</strong> {{ prediction.energy_level }}</p>
-            <p><strong>Caffeine Intake:</strong> {{ prediction.caffeine_intake }}</p>
-            <p><strong>Effectiveness:</strong> {{ prediction.effectiveness }}</p>
+            <p><strong>Sleep Time:</strong> {{ prediction.SleepTime }}</p>
+            <p><strong>Sleep Duration:</strong> {{ prediction.SleepLength }}</p>
+            <p><strong>Awakenings:</strong> {{ prediction.Awakenings }}</p>
+            <p><strong>AlcoholConsumed:</strong> {{ prediction.AlcoholConsumed }}</p>
+            <p><strong>Caffeine Intake:</strong> {{ prediction.CaffeineConsumed }}</p>
             <p class="probability">
-                {{ (prediction.probability * 100) | round(1) }}% likely to be effective
+                {{ (prediction.probability * 100) | round(3) }}% likely to be effective
             </p>
         </div>
     {% endif %}

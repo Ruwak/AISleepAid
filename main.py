@@ -258,11 +258,11 @@ def magic_predictor():
         CaffeineConsumed = CAFFEINE_INTAKE.index(request.form["CaffeineConsumed"])
         AlcoholConsumed = ALCOHOLCONSUMED.index(request.form["AlcoholConsumed"])
 
-        x = [[awakenings_index, SleepTime, SleepLength, CaffeineConsumed, AlcoholConsumed]]
+        x = [[SleepTime, awakenings_index, AlcoholConsumed, SleepLength, CaffeineConsumed]]
 
         # Predict probability of Effectiveness
         prob = model.predict_proba(x)[0][1]
-
+        print(prob)
         prediction = {
             "SleepTime": SleepTime,
             "SleepLength": SleepLength,
