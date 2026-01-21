@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Sleep Recommendations{% endblock %}
+
+{% block content %}
+<div class="page">
+
+    <!-- Title -->
+    <h1>Top Sleep Recommendations</h1>
+
+    <!-- Decision Tree Section -->
+    <h2>Decision Tree Recommendations</h2>
+    {% if recs_dt %}
+        {% for rec in recs_dt %}
+        <div class="recommendation-card">
+       <p><strong>Sleep Time:</strong> {{ rec.SleepTime }}</p>
+    <p><strong>Sleep Length:</strong> {{ rec.SleepLength }}</p>
+    <p><strong>Awakenings:</strong> {{ rec.Awakenings }}</p>
+    <p><strong>Alcohol Consumed:</strong> {{ rec.AlcoholConsumed }}</p>
+    <p><strong>Caffeine Intake:</strong> {{ rec.CaffeineConsumed }}</p>
+</div>
+        {% endfor %}
+
+        <div class="feature-importance">
+            <h3>Decision Tree Feature Importances</h3>
+            <table>
+                <thead>
+                    <tr><th>Feature</th><th>Importance (%)</th></tr>
+                </thead>
+                <tbody>
+                    {% for feature, importance in feature_importances_dt.items() %}
+                    <tr>
+                        <td>{{ feature }}</td>
+                        <td>{{ (importance * 100)|round(2) }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p>No Decision Tree recommendations yet.</p>
+    {% endif %}
+
+    <hr>
+
+</div>
+{% endblock %}

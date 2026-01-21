@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+    <div class="page">
+    <h1>Book an appointment</h1>
+    <ul>
+    {% for time in suggested_times %}
+        <li>{{ time }} </li>
+    {% endfor %}
+    </ul>
+    <form method="POST" action="{{ url_for('book')}}">
+
+        <!-- Bed Time selection -->
+        <h3>Bed Time:</h3>
+        <select name="bed_time" id="bed_time">
+            {% for bed_time in bed_times %}
+                <option value="{{ bed_time }}">{{ bed_time }}</option>
+            {% endfor %}
+        </select>
+
+        <br>
+        <!-- Energy Level -->
+        <h3>Energy Level:</h3>
+        <select name="energy_level" id="energy_level">
+            {% for energy_level in energy_levels %}
+                <option value="{{ energy_level }}">{{ energy_level }}</option>
+            {% endfor %}
+        </select>
+
+        <br>
+        <!-- Stressed selections -->
+        <h3>Stress (Were you stressed?):</h3>
+        <select name="stressed" id="stressed">
+            {% for stressed in is_stressed %}
+                <option value="{{ stressed }}">{{ stressed }}</option>
+            {% endfor %}
+        </select>
+
+        <br>
+        <!-- Sleep Duration selections -->
+        <h3>Sleep Duration:</h3>
+        <select name="sleep_duration" id="sleep_duration">
+            {% for sleep_duration in sleep_durations %}
+                <option value="{{ sleep_duration }}">{{ sleep_duration }}</option>
+            {% endfor %}
+        </select>
+
+        <br>
+        <!-- Caffeine Intake selections -->
+        <h3>Caffeine Intake:</h3>
+        <select name="caffeine_intake" id="caffeine_intake">
+            {% for caffeine_intake in caffeine_intakes %}
+                <option value="{{ caffeine_intake }}">{{ caffeine_intake }}</option>
+            {% endfor %}
+        </select>
+
+
+        <br>
+        <!-- effectivness selections -->
+        <h3>Effectiveness:</h3>
+        <select name="effectiveness" id="effectiveness">
+            {% for effectiveness in effectivenesses %}
+                <option value="{{ effectiveness }}">{{ effectiveness }}</option>
+            {% endfor %}
+        </select>
+        <br>
+
+        <button id="book" type="submit">Submit Data</button>
+
+    </form>
+    </div>
+
+{% endblock %}

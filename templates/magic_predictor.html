@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}Magic Predictor{% endblock %}
+
+{% block content %}
+<div class="page">
+    <h1>Magic Study Predictor</h1>
+
+    <form method="POST">
+        <h3>Bed Time</h3>
+        <select name="bed_time">
+            {% for b in bed_times %}
+                <option value="{{ b }}">{{ b }}</option>
+            {% endfor %}
+        </select>
+
+        <h3>Sleep Duration</h3>
+        <select name="sleep_duration">
+            {% for s in sleep_durations %}
+                <option value="{{ s }}">{{ s }}</option>
+            {% endfor %}
+        </select>
+
+        <h3>Stress Level</h3>
+        <select name="stress_level">
+            {% for s in stress_levels %}
+                <option value="{{ s }}">{{ s }}</option>
+            {% endfor %}
+        </select>
+
+        <h3>Energy Level</h3>
+        <select name="energy_level">
+            {% for e in energy_levels %}
+                <option value="{{ e }}">{{ e }}</option>
+            {% endfor %}
+        </select>
+
+        <h3>Caffeine Intake</h3>
+        <select name="caffeine_intake">
+            {% for c in caffeine_intakes %}
+                <option value="{{ c }}">{{ c }}</option>
+            {% endfor %}
+        </select>
+
+        <h3>Effectiveness</h3>
+        <select name="effectiveness">
+            {% for e in effectivenesses %}
+                <option value="{{ e }}">{{ e }}</option>
+            {% endfor %}
+        </select>
+
+        <button id="book" type="submit">Predict Effectiveness</button>
+    </form>
+
+    {% if prediction %}
+        <div class="recommendation-card">
+            <h2>Prediction Result</h2>
+            <p><strong>Bed Time:</strong> {{ prediction.bed_time }}</p>
+            <p><strong>Sleep Duration:</strong> {{ prediction.sleep_duration }}</p>
+            <p><strong>Stress Level:</strong> {{ prediction.stress_level }}</p>
+            <p><strong>Energy Level:</strong> {{ prediction.energy_level }}</p>
+            <p><strong>Caffeine Intake:</strong> {{ prediction.caffeine_intake }}</p>
+            <p><strong>Effectiveness:</strong> {{ prediction.effectiveness }}</p>
+            <p class="probability">
+                {{ (prediction.probability * 100) | round(1) }}% likely to be effective
+            </p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

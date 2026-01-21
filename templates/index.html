@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div id="qwe"><h1 >Sleep Sessions</h1>
+
+    </div>
+<!-- "Effectiveness", "Awakenings", "CaffeineConsumed", "SleepLength", "AlcoholConsumed","SleepTime" -->
+    <div id="sessions">
+        <div class="grid-container">
+            {% for s in data %}
+                <div class="session-card {% if s.Effectiveness == 'true' %}good{% else %}bad{% endif %}">
+                    <div id="title" class="session-field"><strong>Sleep Time:</strong> {{ s.SleepTime }}</div>
+                    <div class="session-field"><strong>Sleep Length:</strong> {{ s.SleepLength }}</div>
+                    <div class="session-field"><strong>Awakenings:</strong> {{ s.Awakenings }} min</div>
+                    <div class="session-field"><strong>AlcoholConsumed:</strong> {{ s.AlcoholConsumed }}</div>
+                    <div class="session-field"><strong>CaffeineConsumed:</strong> {{ s.CaffeineConsumed }}</div>
+                    <div class="session-field"><strong>Effective:</strong> {{ s.Effectiveness }}</div>
+                </div>
+            {% else %}
+                <p>No sleep sessions yet.</p>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}

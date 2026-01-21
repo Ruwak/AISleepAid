@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+    <div class="page">
+    <form method="POST" action="{{ url_for('book')}}">
+
+        <!-- Bed Time selection -->
+        <h3>Sleep length:</h3>
+        <select name="SleepLength" id="SleepLength">
+            {% for SleepLength in sleep_lengths %}
+                <option value="{{ SleepLength }}">{{ SleepLength }}</option>
+            {% endfor %}
+        </select>
+
+        <br>
+        <!-- Energy Level -->
+        <h3>Caffeination Level:</h3>
+        <select name="CaffeineConsumed" id="CaffeineConsumed">
+            {% for CaffeineConsumed in caffeine_intakes %}
+                <option value="{{ CaffeineConsumed }}">{{ CaffeineConsumed }}</option>
+            {% endfor %}
+        </select>
+
+        <br>
+        <!-- AlcoholConsumed selections -->
+        <h3>AlcoholConsumed:</h3>
+        <select name="AlcoholConsumed" id="AlcoholConsumed">
+            {% for AlcoholConsumed in is_alcoholconsumeded %}
+                <option value="{{ AlcoholConsumed }}">{{ AlcoholConsumed }}</option>
+            {% endfor %}
+        </select>
+
+        <br>
+        <!-- Sleep Duration selections -->
+        <h3>Awakenings:</h3>
+        <select name="Awakenings" id="Awakenings">
+            {% for Awakenings in awakeningss %}
+                <option value="{{ Awakenings }}">{{ Awakenings }}</option>
+            {% endfor %}
+        </select>
+
+        <br>
+        <!-- Caffeine Intake selections -->
+        <h3>Sleep Time:</h3>
+        <select name="SleepTime" id="SleepTime">
+            {% for sleepTime in sleep_times %}
+                <option value="{{ sleepTime }}">{{ sleepTime }}</option>
+            {% endfor %}
+        </select>
+
+
+        <br>
+        <!-- effectivness selections -->
+        <h3>Effectiveness:</h3>
+        <select name="effectiveness" id="effectiveness">
+            {% for effectiveness in effectivenesses %}
+                <option value="{{ effectiveness }}">{{ effectiveness }}</option>
+            {% endfor %}
+        </select>
+        <br>
+
+        <button id="book" type="submit">Submit Data</button>
+
+    </form>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,282 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Grid layout for sessions */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+#qwe{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color:#4f46e5;
+}
+
+#session{
+    display: grid;
+}
+
+/* Individual session cards */
+.session-card {
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Each field inside the card */
+.session-field {
+    font-size: 0.95rem;
+}.add-btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    background: #4f46e5;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Fixed add button */
+.add-session-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 16px;
+    background-color: #4f46e5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    z-index: 1000;
+}
+
+.add-session-btn-2 {
+    position: fixed;
+    top: 20px;
+    right: 300px;
+    padding: 10px 16px;
+    background-color: #4f46e5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    z-index: 1000;
+}
+
+/* Toggle button */
+#toggleBtn {
+    margin-bottom: 15px;
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    background-color: #e5e7eb;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#toggleBtn:hover {
+    background-color: #d1d5db;
+}
+
+/* Page container */
+form {
+    max-width: 500px;
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Headings */
+h1 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-size: 1rem;
+}
+
+/* Inputs and dropdowns */
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.95rem;
+}
+
+/* Suggested times list */
+ul {
+    margin-bottom: 20px;
+    padding-left: 18px;
+}
+
+/* Submit button */
+#book {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#book:hover {
+    background-color: #4f46e5;
+}
+
+#title {
+    font-size: 1.2rem;
+}
+
+.session-card.good {
+    background-color: #b9ffde; 
+}
+
+.session-card.bad {
+    background-color: hsl(0, 77%, 88%); 
+}
+
+
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+/* Title */
+.page h1 {
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+/* Recommendation cards */
+.recommendation-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 18px 22px;
+    margin-bottom: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    border-left: 6px solid #4f46e5;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+
+/* Card headings */
+.recommendation-card h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Card text */
+.recommendation-card p {
+    margin: 4px 0;
+    font-size: 0.95rem;
+    color: #374151;
+}
+
+/* Probability highlight */
+.recommendation-card .probability {
+    margin-top: 10px;
+    font-weight: 700;
+    color: #16a34a;
+    font-size: 1rem;
+}
+
+/* Feature importance section */
+.feature-importance {
+    margin-top: 40px;
+}
+
+/* Feature importance table */
+.feature-importance table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.feature-importance th,
+.feature-importance td {
+    padding: 12px 14px;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+.feature-importance th {
+    background-color: #f3f4f6;
+    font-weight: 600;
+}
+
+.feature-importance tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* NAV BAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    background-color: #ffffff3a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    z-index: 2000;
+}
+
+/* Left title */
+.nav-left {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #4f46e5;
+}
+
+.nav-right{
+    margin-right: 45px;
+}
+
+/* Right links */
+.nav-right a {
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #374151;
+    font-size: 1.3rem;
+}
+
+.nav-right a:hover {
+    color: #4f46e5;
+}
+
+/* Push page content below navbar */
+.content {
+    padding-top: 90px;
+}
