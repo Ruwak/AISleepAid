@@ -1,14 +1,8 @@
 from flask import Flask, flash, request, render_template, redirect, url_for
 import json
-from collections import Counter
-from datetime import datetime
 from sklearn.tree import DecisionTreeClassifier, export_text
-from sklearn.tree import _tree
-import random
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-import pandas as pd
-
 # Tool for encoding string labels into numbers
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
