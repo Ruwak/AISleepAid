@@ -245,13 +245,18 @@ def magic_predictor():
     if request.method == "POST":
         # Train model
         model = ML_Model()
-
+        # SLEEP_TIME = ["early", "normal", "late"]
+        # AWAKENINGS = ["none", "low", "medium", "high"]
+        # ALCOHOLCONSUMED = ["none", "low", "medium", "high"]
+        # SLEEP_LENGTH = ["Short", "Medium", "Long"]
+        # CAFFEINE_INTAKE = ["none", "low", "medium", "high"]
+        # EFFECTIVENESS = ["true", "false"]
         # Encode input
         awakenings_index = AWAKENINGS.index(request.form["Awakenings"])
-        SleepTime = int(request.form["SleepTime"])
-        SleepLength = int(request.form["SleepLength"])
-        CaffeineConsumed = int(request.form["CaffeineConsumed"])
-        AlcoholConsumed = int(request.form["AlcoholConsumed"])
+        SleepTime = SLEEP_TIME.index(request.form["SleepTime"])
+        SleepLength = SLEEP_LENGTH.index(request.form["SleepLength"])
+        CaffeineConsumed = CAFFEINE_INTAKE.index(request.form["CaffeineConsumed"])
+        AlcoholConsumed = ALCOHOLCONSUMED.index(request.form["AlcoholConsumed"])
 
         x = [[awakenings_index, SleepTime, SleepLength, CaffeineConsumed, AlcoholConsumed]]
 
@@ -261,7 +266,7 @@ def magic_predictor():
         prediction = {
             "SleepTime": SleepTime,
             "SleepLength": SleepLength,
-            "Awakenings": request.form["Awakenings"],
+            "Awakenings": awakenings_index,
             "CaffeineConsumed": CaffeineConsumed,
             "AlcoholConsumed": AlcoholConsumed,
             "probability": prob
@@ -270,6 +275,10 @@ def magic_predictor():
     return render_template(
         "magic_predictor.html",
         awakeningss=AWAKENINGS,
+        is_alcoholconsumeded=ALCOHOLCONSUMED,
+        caffeine_intakes=CAFFEINE_INTAKE,
+        sleep_times=SLEEP_TIME,
+        sleep_lengths=SLEEP_LENGTH,
         prediction=prediction
     )
     

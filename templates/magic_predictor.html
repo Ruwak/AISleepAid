@@ -4,48 +4,51 @@
 
 {% block content %}
 <div class="page">
-    <h1>Magic Study Predictor</h1>
+    <h1>Magic sleep Predictor</h1>
 
     <form method="POST">
-        <h3>Bed Time</h3>
-        <select name="bed_time">
-            {% for b in bed_times %}
-                <option value="{{ b }}">{{ b }}</option>
+        
+        <!-- Bed Time selection -->
+        <h3>Sleep length:</h3>
+        <select name="SleepLength" id="SleepLength">
+            {% for SleepLength in sleep_lengths %}
+                <option value="{{ SleepLength }}">{{ SleepLength }}</option>
             {% endfor %}
         </select>
 
-        <h3>Sleep Duration</h3>
-        <select name="sleep_duration">
-            {% for s in sleep_durations %}
-                <option value="{{ s }}">{{ s }}</option>
+        <br>
+        <!-- Energy Level -->
+        <h3>Caffeination Level:</h3>
+        <select name="CaffeineConsumed" id="CaffeineConsumed">
+            {% for CaffeineConsumed in caffeine_intakes %}
+                <option value="{{ CaffeineConsumed }}">{{ CaffeineConsumed }}</option>
             {% endfor %}
         </select>
 
-        <h3>Stress Level</h3>
-        <select name="stress_level">
-            {% for s in stress_levels %}
-                <option value="{{ s }}">{{ s }}</option>
+        <br>
+        <!-- AlcoholConsumed selections -->
+        <h3>AlcoholConsumed:</h3>
+        <select name="AlcoholConsumed" id="AlcoholConsumed">
+            {% for AlcoholConsumed in is_alcoholconsumeded %}
+                <option value="{{ AlcoholConsumed }}">{{ AlcoholConsumed }}</option>
             {% endfor %}
         </select>
 
-        <h3>Energy Level</h3>
-        <select name="energy_level">
-            {% for e in energy_levels %}
-                <option value="{{ e }}">{{ e }}</option>
+        <br>
+        <!-- Sleep Duration selections -->
+        <h3>Awakenings:</h3>
+        <select name="Awakenings" id="Awakenings">
+            {% for Awakenings in awakeningss %}
+                <option value="{{ Awakenings }}">{{ Awakenings }}</option>
             {% endfor %}
         </select>
 
-        <h3>Caffeine Intake</h3>
-        <select name="caffeine_intake">
-            {% for c in caffeine_intakes %}
-                <option value="{{ c }}">{{ c }}</option>
-            {% endfor %}
-        </select>
-
-        <h3>Effectiveness</h3>
-        <select name="effectiveness">
-            {% for e in effectivenesses %}
-                <option value="{{ e }}">{{ e }}</option>
+        <br>
+        <!-- Caffeine Intake selections -->
+        <h3>Sleep Time:</h3>
+        <select name="SleepTime" id="SleepTime">
+            {% for sleepTime in sleep_times %}
+                <option value="{{ sleepTime }}">{{ sleepTime }}</option>
             {% endfor %}
         </select>
 
