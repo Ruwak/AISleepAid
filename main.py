@@ -177,6 +177,7 @@ def compare_models():
     dt_model.fit(X_train, y_train)
     dt_acc = accuracy_score(y_test, dt_model.predict(X_test))
 
+    # tony is smort
 
     print(f"Decision Tree Accuracy: {dt_acc*100:.2f}%")
 
