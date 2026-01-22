@@ -131,11 +131,11 @@ def recommend_study_time_brute_force(model, top_n=3):
 
 # train decision tree model
 def ML_Model():
-    data = org_data()
+    data = org_data() # initialize data to the processed sleep data with numeric values
     
     # Separate features and target
-    X = []
-    y = []
+    X = [] # features
+    y = [] # target
     for d in data:
         X.append([d["SleepTime"], d["SleepLength"], d["Awakenings"], d["AlcoholConsumed"], d["CaffeineConsumed"]])
         y.append(d["Effectiveness"])
@@ -186,6 +186,8 @@ def home():
 def book():
 
     if request.method == "POST":
+
+        # set choices to the feature values chosen in the form by the user
         Awakenings = request.form["Awakenings"]
         Effectiveness = request.form["effectiveness"]
         SleepTime = request.form["SleepTime"]
@@ -193,6 +195,7 @@ def book():
         CaffeineConsumed = request.form["CaffeineConsumed"]
         AlcoholConsumed = request.form["AlcoholConsumed"]
         
+        # store new sleep session
         new_sleep_session = {
             "SleepTime": SleepTime,
             "SleepLength": SleepLength,
@@ -200,8 +203,10 @@ def book():
             "AlcoholConsumed": AlcoholConsumed,
             "CaffeineConsumed": CaffeineConsumed,
             "Effectiveness": Effectiveness
-        }
+        } # new_sleep_session
         append_data(new_sleep_session)
+
+        # redirect user back home after they log the data
         return redirect(url_for('home'))
 
     return render_template(
@@ -218,6 +223,7 @@ def book():
 # recommendations page
 @app.route("/recommendations")
 def recommendations():
+
     # Decision Tree
     dt_model = ML_Model()  
     recs_dt = recommend_study_time_brute_force(dt_model, top_n=3)
@@ -245,6 +251,7 @@ def magic_predictor():
         # Train model
         model = ML_Model()
         
+        # set choices to the feature values chosen in the form by the user
         choices = {
             "SleepTime": request.form["SleepTime"],
             "SleepLength": request.form["SleepLength"],
@@ -253,6 +260,7 @@ def magic_predictor():
             "AlcoholConsumed": request.form["AlcoholConsumed"],
         } # choices
 
+        # add the corresponding numeric values to the features
         awakenings_index = AWAKENINGS.index(request.form["Awakenings"])
         SleepTime = SLEEP_TIME.index(request.form["SleepTime"])
         SleepLength = SLEEP_LENGTH.index(request.form["SleepLength"])
