@@ -1,3634 +1,3619 @@
+
 [
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
+    },
+    {
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
+    },
+    {
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
+    },
+    {
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
+    },
+    {
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "false",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Short",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Short",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Short",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Short",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "false",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Short",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Short",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "false",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Short",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Short",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Short",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Short",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "false",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Short",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Short",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "false",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "false",
-        "Awakenings": "low",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Short",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Short",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Short",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Short",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "normal"
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"normal"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
+        "Effectiveness":"true",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
     },
     {
-        "Effectiveness": "false",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "high",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "low",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "false",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "high",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "none",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "high",
-        "CaffeineConsumed": "low",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Long",
-        "AlcoholConsumed": "medium",
-        "SleepTime": "late"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "medium",
-        "CaffeineConsumed": "none",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "normal"
-    },
-    {
-        "Effectiveness": "true",
-        "Awakenings": "low",
-        "CaffeineConsumed": "medium",
-        "SleepLength": "Medium",
-        "AlcoholConsumed": "none",
-        "SleepTime": "late"
-    },
-    {
-        "SleepTime": "normal",
-        "SleepLength": "Long",
-        "Awakenings": "low",
-        "AlcoholConsumed": "high",
-        "CaffeineConsumed": "low",
-        "Effectiveness": "false"
-    },
-    {
-        "SleepTime": "early",
-        "SleepLength": "Short",
-        "Awakenings": "none",
-        "AlcoholConsumed": "none",
-        "CaffeineConsumed": "none",
-        "Effectiveness": "true"
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"high",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
+    },
+    {
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"false",
+        "Awakenings":"high",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"low",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"false",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"high",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"true",
+        "Awakenings":"none",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
+    },
+    {
+        "Effectiveness":"true",
+        "Awakenings":"high",
+        "CaffeineConsumed":"low",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
+    },
+    {
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Long",
+        "AlcoholConsumed":"medium",
+        "SleepTime":"late"
+    },
+    {
+        "Effectiveness":"true",
+        "Awakenings":"medium",
+        "CaffeineConsumed":"none",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"normal"
+    },
+    {
+        "Effectiveness":"false",
+        "Awakenings":"low",
+        "CaffeineConsumed":"medium",
+        "SleepLength":"Medium",
+        "AlcoholConsumed":"none",
+        "SleepTime":"late"
     }
 ]
