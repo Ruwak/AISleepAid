@@ -11,8 +11,7 @@ import json
 from sklearn.tree import DecisionTreeClassifier, export_text
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-# Tool for encoding string labels into numbers
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder # Tool for encoding string labels into numbers
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
