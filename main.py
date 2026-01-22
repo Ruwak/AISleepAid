@@ -16,7 +16,6 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-# import pandas as pd
 import os
 
 
@@ -34,7 +33,6 @@ data_file_path = os.path.join(
     'json',
     'sleep_sessions.json'
 )
-
 
 
 # Encoders to convert categorical values into numeric labels
@@ -62,13 +60,11 @@ def append_data(new_data):
 
 
 def org_data():
+    processed = [] # stores processed data
     
-
     raw = read_data()
     if not raw:
         return print("No data")
-    
-    processed = []
 
     for d in raw:
         processed.append({
@@ -79,23 +75,16 @@ def org_data():
             "CaffeineConsumed": CAFFEINE_INTAKE.index(d["CaffeineConsumed"]),
             "Effectiveness": EFFECTIVENESS.index(d["Effectiveness"])
         })
-
     return processed
 
-
-
 def recommend_study_time_brute_force(model, top_n=3):
-
-    top_recommendations = []
-
+    top_recommendations = [] # stores top recommendations
     
     for awakenings_i, Awakenings in enumerate(AWAKENINGS):
         for alcoholconsumed_i, alcoholconsumed in enumerate(ALCOHOLCONSUMED):
             for caffeine_i, caffeine in enumerate(CAFFEINE_INTAKE):
                 for sleep_time_i, SleepTime in enumerate(SLEEP_TIME):
                     for sleep_length_i, SleepLength in enumerate(SLEEP_LENGTH):
-
-            
 
                         # Prepare input for the model
                         x = [[sleep_time_i, sleep_length_i, awakenings_i, alcoholconsumed_i, caffeine_i]]
@@ -109,7 +98,7 @@ def recommend_study_time_brute_force(model, top_n=3):
                             "SleepLength": SleepLength,
                             "CaffeineConsumed": caffeine,
                             "probability": prob
-                        }
+                        } # candidate
 
                         # Fill initial slots
                         if len(top_recommendations) < top_n:
@@ -129,8 +118,8 @@ def recommend_study_time_brute_force(model, top_n=3):
 
     # Sort final results by probability
     top_recommendations.sort(key=lambda r: r["probability"], reverse=True)
-    print(top_recommendations)
 
+    # return the best recommendations
     return top_recommendations
 
 
