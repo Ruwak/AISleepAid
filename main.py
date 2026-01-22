@@ -231,23 +231,17 @@ def magic_predictor():
     choices = None
     
     if request.method == "POST":
+        
         # Train model
         model = ML_Model()
-        # SLEEP_TIME = ["early", "normal", "late"]
-        # AWAKENINGS = ["none", "low", "medium", "high"]
-        # ALCOHOLCONSUMED = ["none", "low", "medium", "high"]
-        # SLEEP_LENGTH = ["Short", "Medium", "Long"]
-        # CAFFEINE_INTAKE = ["none", "low", "medium", "high"]
-        # EFFECTIVENESS = ["true", "false"]
-        # Encode input
-
+        
         choices = {
             "SleepTime": request.form["SleepTime"],
             "SleepLength": request.form["SleepLength"],
             "Awakenings": request.form["Awakenings"],
             "CaffeineConsumed": request.form["CaffeineConsumed"],
             "AlcoholConsumed": request.form["AlcoholConsumed"],
-        }
+        } # choices
 
         awakenings_index = AWAKENINGS.index(request.form["Awakenings"])
         SleepTime = SLEEP_TIME.index(request.form["SleepTime"])
@@ -270,8 +264,6 @@ def magic_predictor():
             "probability": prob
         }
 
-
-
     return render_template(
         "magic_predictor.html",
         awakeningss=AWAKENINGS,
@@ -281,7 +273,7 @@ def magic_predictor():
         sleep_lengths=SLEEP_LENGTH,
         prediction=prediction,
         choices=choices
-    )
+    ) # render_template
     
 if __name__ == '__main__':
     app.run(debug=True)
