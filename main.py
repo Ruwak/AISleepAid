@@ -41,6 +41,7 @@ time_encoder = LabelEncoder()
 subject_encoder = LabelEncoder()
 
 
+# run app
 app = Flask(__name__)
 
 
@@ -56,8 +57,9 @@ def append_data(new_data):
     data.append(new_data)
     with open(data_file_path, "w") as f:
         json.dump(data, f, indent=4)
-        
 
+
+# organize and process data
 def org_data():
     processed = [] # stores processed data
     
@@ -65,6 +67,7 @@ def org_data():
     if not raw:
         return print("No data")
 
+    # add the corresponding numeric values to the features
     for d in raw:
         processed.append({
             "SleepTime": SLEEP_TIME.index(d["SleepTime"]),
@@ -74,6 +77,8 @@ def org_data():
             "CaffeineConsumed": CAFFEINE_INTAKE.index(d["CaffeineConsumed"]),
             "Effectiveness": EFFECTIVENESS.index(d["Effectiveness"])
         })
+
+    # return processed data
     return processed
 
 
