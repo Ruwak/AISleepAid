@@ -71,7 +71,6 @@ def org_data():
     processed = []
 
     for d in raw:
-        # "Effectiveness", "Awakenings", "CaffeineConsumed", "SleepLength", "AlcoholConsumed","SleepTime"
         processed.append({
             "SleepTime": SLEEP_TIME.index(d["SleepTime"]),
             "SleepLength": SLEEP_LENGTH.index(d["SleepLength"]),
@@ -99,8 +98,9 @@ def recommend_study_time_brute_force(model, top_n=3):
             
 
                         # Prepare input for the model
-                        x = [[sleep_time_i, awakenings_i, alcoholconsumed_i, sleep_length_i, caffeine_i]]
-                        prob = model.predict_proba(x)[0][1]
+                        x = [[sleep_time_i, sleep_length_i, awakenings_i, alcoholconsumed_i, caffeine_i]]
+                        prob = model.predict_proba(x)[0][0]
+                        print(prob)
 
                         candidate = {
                             "SleepTime": SleepTime,
@@ -145,7 +145,7 @@ def ML_Model():
         y.append(d["Effectiveness"])
     
     # Initialize and train the model
-    model = DecisionTreeClassifier()
+    model = DecisionTreeClassifier(max_depth=5)
     model.fit(X, y)
     
     # Print feature importances
@@ -228,7 +228,6 @@ def recommendations():
     recs_dt = recommend_study_time_brute_force(dt_model, top_n=3)
     dt_features = ["SleepTime", "SleepLength", "Awakenings", "CaffeineConsumed", "AlcoholConsumed"]
     dt_importances = dict(zip(dt_features, dt_model.feature_importances_))
-    print("helloWorld")
    
     return render_template(
         "reccomendations.html",  
@@ -268,8 +267,7 @@ def magic_predictor():
         AlcoholConsumed = ALCOHOLCONSUMED.index(request.form["AlcoholConsumed"])
 
         
-
-        x = [[SleepTime, awakenings_index, AlcoholConsumed, SleepLength, CaffeineConsumed]]
+        x = [[SleepTime, SleepLength, awakenings_index, AlcoholConsumed, CaffeineConsumed]]
 
         # Predict probability of Effectiveness
         prob = model.predict_proba(x)[0][1]
