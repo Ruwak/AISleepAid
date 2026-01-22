@@ -82,6 +82,7 @@ def org_data():
     return processed
 
 
+# find recomendations
 def recommend_study_time_brute_force(model, top_n=3):
     top_recommendations = [] # stores top recommendations
     
@@ -128,6 +129,7 @@ def recommend_study_time_brute_force(model, top_n=3):
     return top_recommendations
 
 
+# train decision tree model
 def ML_Model():
     data = org_data()
     
@@ -152,9 +154,11 @@ def ML_Model():
     tree_text = export_text(model, feature_names=feature_names)
     print(tree_text)
 
+    # return fully trained model
     return model
 
 
+# compare the accuracy of both models (defunct) ("don't remove because we're going to use something out of there" - Kuwar on this code)
 def compare_models():
 
     # Decision Tree
@@ -175,6 +179,7 @@ def home():
     data = read_data()
     ML_Model()
     return render_template('index.html', data=data)
+
 
 # Booking page
 @app.route('/index.html', methods=["GET", "POST"])
@@ -207,8 +212,10 @@ def book():
         caffeine_intakes=CAFFEINE_INTAKE,
         sleep_times=SLEEP_TIME,
         sleep_lengths=SLEEP_LENGTH
-    )
+    ) # render_template
 
+
+# recommendations page
 @app.route("/recommendations")
 def recommendations():
     # Decision Tree
@@ -223,12 +230,16 @@ def recommendations():
         feature_importances_dt=dt_importances,
     ) # render_template
 
+
+# magic predictor page
 @app.route("/magic_predictor", methods=["GET", "POST"])
 def magic_predictor():
 
+    # initialize variables
     prediction = None # initialize the prediction to none
     choices = None # initialize the choices to none
-    
+
+    # post predictions
     if request.method == "POST":
         
         # Train model
