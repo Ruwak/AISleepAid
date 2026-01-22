@@ -19,7 +19,6 @@ from sklearn.metrics import accuracy_score
 import os
 
 
-
 # Global Variables:
 SLEEP_TIME = ["early", "normal", "late"]
 AWAKENINGS = ["none", "low", "medium", "high"]
@@ -43,10 +42,12 @@ subject_encoder = LabelEncoder()
 
 app = Flask(__name__)
 
+
 # Load appointment data
 def read_data():
     with open(data_file_path, "r") as f:
         return json.load(f)
+
 
 # Append new appointment
 def append_data(new_data):
@@ -54,10 +55,7 @@ def append_data(new_data):
     data.append(new_data)
     with open(data_file_path, "w") as f:
         json.dump(data, f, indent=4)
-
- 
-    
-
+        
 
 def org_data():
     processed = [] # stores processed data
@@ -76,6 +74,7 @@ def org_data():
             "Effectiveness": EFFECTIVENESS.index(d["Effectiveness"])
         })
     return processed
+
 
 def recommend_study_time_brute_force(model, top_n=3):
     top_recommendations = [] # stores top recommendations
@@ -149,10 +148,6 @@ def ML_Model():
 
     return model
 
-# Example usage:
-# model = ML_Model()
-
-# print(generate_recommendation(model))
 
 def compare_models():
 
@@ -165,11 +160,9 @@ def compare_models():
     dt_model.fit(X_train, y_train)
     dt_acc = accuracy_score(y_test, dt_model.predict(X_test))
 
-    # tony is smort
-
-    print(f"Decision Tree Accuracy: {dt_acc*100:.2f}%")
-
     return dt_model
+
+
 # Home page
 @app.route('/')
 def home():
@@ -222,13 +215,13 @@ def recommendations():
         "reccomendations.html",  
         recs_dt=recs_dt,
         feature_importances_dt=dt_importances,
-    )
+    ) # render_template
 
 @app.route("/magic_predictor", methods=["GET", "POST"])
 def magic_predictor():
 
-    prediction = None
-    choices = None
+    prediction = None # initialize the prediction to none
+    choices = None # initialize the choices to none
     
     if request.method == "POST":
         
@@ -249,12 +242,10 @@ def magic_predictor():
         CaffeineConsumed = CAFFEINE_INTAKE.index(request.form["CaffeineConsumed"])
         AlcoholConsumed = ALCOHOLCONSUMED.index(request.form["AlcoholConsumed"])
 
-        
         x = [[SleepTime, SleepLength, awakenings_index, AlcoholConsumed, CaffeineConsumed]]
 
         # Predict probability of Effectiveness
         prob = model.predict_proba(x)[0][1]
-        print(prob)
         prediction = {
             "SleepTime": SleepTime,
             "SleepLength": SleepLength,
@@ -262,7 +253,7 @@ def magic_predictor():
             "CaffeineConsumed": CaffeineConsumed,
             "AlcoholConsumed": AlcoholConsumed,
             "probability": prob
-        }
+        } # prediction
 
     return render_template(
         "magic_predictor.html",
