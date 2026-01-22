@@ -227,7 +227,7 @@ def recommendations():
     # Decision Tree
     dt_model = ML_Model()  
     recs_dt = recommend_study_time_brute_force(dt_model, top_n=3)
-    dt_features = ["SleepTime", "SleepLength", "Awakenings", "CaffeineConsumed", "AlcoholConsumed"]
+    dt_features = ["SleepTime", "SleepLength", "Awakenings", "AlcoholConsumed", "CaffeineConsumed"]
     dt_importances = dict(zip(dt_features, dt_model.feature_importances_))
    
     return render_template(
@@ -270,7 +270,7 @@ def magic_predictor():
         x = [[SleepTime, SleepLength, awakenings_index, AlcoholConsumed, CaffeineConsumed]]
 
         # Predict probability of Effectiveness
-        prob = model.predict_proba(x)[0][1]
+        prob = model.predict_proba(x)[0][0]
         prediction = {
             "SleepTime": SleepTime,
             "SleepLength": SleepLength,
