@@ -1,3 +1,11 @@
+##################################################
+# Program: Sleep Buddy (SleepAid)
+# Author: Tony, Zac, Mia, Kuwar
+# Date: 27/1/2026
+# Purpose: To help user analyze and predic sleeping 
+#          patterns and habits using ML.
+#####################################################
+
 from flask import Flask, flash, request, render_template, redirect, url_for
 import json
 from sklearn.tree import DecisionTreeClassifier, export_text
@@ -26,16 +34,7 @@ data_file_path = os.path.join(
     'json',
     'sleep_sessions.json'
 )
-# csv_path = os.path.join(
-#     os.path.dirname(__file__),
-#     'static',
-#     'data',
-#     'sleep_sessions.csv'
-# )
 
-# pd.read_csv(csv_path)[
-#     ["Effectiveness", "Awakenings", "CaffeineConsumed", "SleepLength", "AlcoholConsumed","SleepTime"]
-# ].to_json(data_file_path, orient="records", indent=4)
 
 
 # Encoders to convert categorical values into numeric labels
@@ -297,34 +296,5 @@ def magic_predictor():
         choices=choices
     )
     
-@app.route('/test-ai')
-def test_ai():
-    data = org_data()
-
-    X = [[d["SleepTime"], d["SleepLength"], d["Awakenings"], d["CaffeineConsumed"], d["AlcoholConsumed"]] for d in data]
-    y = [d["Effectiveness"] for d in data]
-
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-    model = DecisionTreeClassifier(max_depth=4, random_state=42)
-    model.fit(X_train, y_train)
-
-    accuracy = round(accuracy_score(y_test, model.predict(X_test)) * 100, 2)
-
-    X_dt = [[d["SleepTime"], d["SleepLength"], d["Awakenings"], d["CaffeineConsumed"], d["AlcoholConsumed"]] for d in data]
-    y_dt = [d["Effectiveness"] for d in data]
-    X_train, X_test, y_train, y_test = train_test_split(X_dt, y_dt, test_size=0.2, random_state=42)
-    dt_model = DecisionTreeClassifier(max_depth=8)
-    dt_model.fit(X_train, y_train)
-    accuracy2 = round(accuracy_score(y_test, dt_model.predict(X_test)) * 100, 2) 
-
-    return render_template(
-        'test_ai_accuracy.html',
-        accuracy=accuracy,
-        accuracy2=accuracy2,
-        total=len(data)
-    )
-
-# What Mo said
 if __name__ == '__main__':
     app.run(debug=True)
