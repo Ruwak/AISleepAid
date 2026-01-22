@@ -25,6 +25,8 @@ ALCOHOLCONSUMED = ["none", "low", "medium", "high"]
 SLEEP_LENGTH = ["Short", "Medium", "Long"]
 CAFFEINE_INTAKE = ["none", "low", "medium", "high"]
 EFFECTIVENESS = ["true", "false"]
+
+# get file paths
 data_file_path = os.path.join(
     os.path.dirname(__file__),
     'static',
