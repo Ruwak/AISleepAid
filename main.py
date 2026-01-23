@@ -105,28 +105,19 @@ def recommend_study_time_brute_force(model, top_n=3):
                             "CaffeineConsumed": caffeine,
                             "probability": prob
                         } # candidate
+                        top_recommendations.append(candidate)
 
-                        # Fill initial slots
-                        if len(top_recommendations) < top_n:
-                            top_recommendations.append(candidate)
-                            continue
-
-                        # Find lowest probability in current top list
-                        min_prob = min(r["probability"] for r in top_recommendations)
-
-                        # Replace if better
-                        if prob > min_prob:
-                            idx = next(
-                                i for i, r in enumerate(top_recommendations)
-                                if r["probability"] == min_prob
-                            )
-                            top_recommendations[idx] = candidate
+                      
 
     # Sort final results by probability
     top_recommendations.sort(key=lambda r: r["probability"], reverse=True)
+    print(top_recommendations)
+    top_rec = top_recommendations[:15]
+    random.shuffle(top_rec)
+   
+    return top_rec[:3]
 
-    # return the best recommendations
-    return top_recommendations
+
 
 
 # train decision tree model
