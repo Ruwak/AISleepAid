@@ -22,7 +22,7 @@ import os
 SLEEP_TIME = ["early", "normal", "late"]
 AWAKENINGS = ["none", "low", "medium", "high"]
 ALCOHOLCONSUMED = ["none", "low", "medium", "high"]
-SLEEP_LENGTH = ["Short", "Medium", "Long"]
+SLEEP_LENGTH = ["short", "medium", "long"]
 CAFFEINE_INTAKE = ["none", "low", "medium", "high"]
 EFFECTIVENESS = ["true", "false"]
 
