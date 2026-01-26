@@ -64,7 +64,7 @@
             <p><strong>AlcoholConsumed:</strong> {{ choices.AlcoholConsumed }}</p>
             <p><strong>Caffeine Intake:</strong> {{ choices.CaffeineConsumed }}</p>
             <p class="probability">
-                {{ (prediction.probability * 100) | round(3) }}% likely to be effective
+                {{ (prediction.probability * 100) | round(2) }}% likely to be effective
             </p>
         </div>
     {% endif %}
