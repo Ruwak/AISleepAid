@@ -9,7 +9,7 @@
     <form method="POST">
         
         <!-- Bed Time selection -->
-        <h3>Sleep length:</h3>
+        <h3>Sleep Length:</h3>
         <select name="SleepLength" id="SleepLength">
             {% for SleepLength in sleep_lengths %}
                 <option value="{{ SleepLength }}">{{ SleepLength }}</option>
@@ -27,7 +27,7 @@
 
         <br>
         <!-- AlcoholConsumed selections -->
-        <h3>AlcoholConsumed:</h3>
+        <h3>Alcohol Consumed:</h3>
         <select name="AlcoholConsumed" id="AlcoholConsumed">
             {% for AlcoholConsumed in is_alcoholconsumeded %}
                 <option value="{{ AlcoholConsumed }}">{{ AlcoholConsumed }}</option>
