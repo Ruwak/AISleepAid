@@ -262,7 +262,7 @@ def magic_predictor():
         x = [[SleepTime, SleepLength, awakenings_index, AlcoholConsumed, CaffeineConsumed]]
 
         # Predict probability of Effectiveness
-        prob = model.predict_proba(x)[0][1]
+        prob = model.predict_proba(x)[0][0]
         prediction = {
             "SleepTime": SleepTime,
             "SleepLength": SleepLength,
