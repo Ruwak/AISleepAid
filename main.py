@@ -27,6 +27,9 @@ SLEEP_LENGTH = ["short", "medium", "long"]
 CAFFEINE_INTAKE = ["none", "low", "medium", "high"]
 EFFECTIVENESS = ["true", "false"]
 
+
+model = None
+
 # get file paths
 data_file_path = os.path.join(
     os.path.dirname(__file__),
@@ -40,6 +43,7 @@ data_file_path = os.path.join(
 mood_encoder = LabelEncoder()
 time_encoder = LabelEncoder()
 subject_encoder = LabelEncoder()
+
 
 
 # run app
@@ -84,7 +88,7 @@ def org_data():
 
 
 # find recomendations
-def recommend_study_time_brute_force(model, top_n=3):
+def recommend_study_time_brute_force(model):
     top_recommendations = [] # stores top recommendations
     
     for awakenings_i, Awakenings in enumerate(AWAKENINGS):
@@ -119,6 +123,7 @@ def recommend_study_time_brute_force(model, top_n=3):
     return top_rec[:3]
 
 
+    
 
 
 # train decision tree model
@@ -150,32 +155,17 @@ def ML_Model():
     return model
 
 
-# compare the accuracy of both models (defunct) ("don't remove because we're going to use something out of there" - Kuwar on this code)
-def compare_models():
-
-    # Decision Tree
-    dt_data = org_data()
-    X_dt = [[d["SleepTime"], d["SleepLength"], d["Awakenings"], d["AlcoholConsumed"], d["CaffeineConsumed"]] for d in dt_data]
-    y_dt = [d["Effectiveness"] for d in dt_data]
-    X_train, X_test, y_train, y_test = train_test_split(X_dt, y_dt, test_size=0.2, random_state=42)
-    dt_model = DecisionTreeClassifier(max_depth=8)
-    dt_model.fit(X_train, y_train)
-    dt_acc = accuracy_score(y_test, dt_model.predict(X_test))
-
-    return dt_model
-
-
 # Home page
 @app.route('/')
 def home():
     data = read_data()
-    ML_Model()
     return render_template('index.html', data=data)
 
 
 # Booking page
 @app.route('/index.html', methods=["GET", "POST"])
 def book():
+    global model
 
     if request.method == "POST":
 
@@ -198,6 +188,9 @@ def book():
         } # new_sleep_session
         append_data(new_sleep_session)
 
+
+        model = ML_Model()
+
         # redirect user back home after they log the data
         return redirect(url_for('home'))
 
@@ -215,12 +208,15 @@ def book():
 # recommendations page
 @app.route("/recommendations")
 def recommendations():
+    global model
+
+    if model is None:
+        model = ML_Model()
 
     # Decision Tree
-    dt_model = ML_Model()  
-    recs_dt = recommend_study_time_brute_force(dt_model, top_n=3)
+    recs_dt = recommend_study_time_brute_force(model)
     dt_features = ["SleepTime", "SleepLength", "Awakenings", "CaffeineConsumed", "AlcoholConsumed"]
-    dt_importances = dict(zip(dt_features, dt_model.feature_importances_))
+    dt_importances = dict(zip(dt_features, model.feature_importances_))
    
     return render_template(
         "reccomendations.html",  
@@ -232,6 +228,11 @@ def recommendations():
 # magic predictor page
 @app.route("/magic_predictor", methods=["GET", "POST"])
 def magic_predictor():
+    global model
+
+    if model is None:
+        model = ML_Model()
+
 
     # initialize variables
     prediction = None # initialize the prediction to none
@@ -241,7 +242,7 @@ def magic_predictor():
     if request.method == "POST":
         
         # Train model
-        model = ML_Model()
+
         
         # set choices to the feature values chosen in the form by the user
         choices = {
