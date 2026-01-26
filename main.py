@@ -173,7 +173,7 @@ def home():
     return render_template('index.html', data=data)
 
 
-# Booking page
+# Booking page 10
 @app.route('/index.html', methods=["GET", "POST"])
 def book():
 
