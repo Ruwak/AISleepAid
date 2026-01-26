@@ -8,7 +8,7 @@
     <form method="POST" action="{{ url_for('book')}}">
 
         <!-- Bed Time selection -->
-        <h3>Sleep length:</h3>
+        <h3>Sleep Length:</h3>
         <select name="SleepLength" id="SleepLength">
             {% for SleepLength in sleep_lengths %}
                 <option value="{{ SleepLength }}">{{ SleepLength }}</option>
@@ -25,7 +25,7 @@
         </select>
 
         <br>
-        <!-- AlcoholConsumed selections -->
+        <!-- Alcohol Consumed selections -->
         <h3>AlcoholConsumed:</h3>
         <select name="AlcoholConsumed" id="AlcoholConsumed">
             {% for AlcoholConsumed in is_alcoholconsumeded %}
