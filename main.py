@@ -86,7 +86,6 @@ def org_data():
     # return processed data
     return processed
 
-
 # find recomendations
 def recommend_study_time_brute_force(model):
     top_recommendations = [] # stores top recommendations

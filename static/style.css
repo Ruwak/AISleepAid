@@ -1,262 +1,88 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
-}
-/* Grid layout for sessions */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#qwe{
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.bannerImg {
+    height: 80rem;
+    background:  url("/static/images/sleep_banner.avif");
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.bannerOverlay {
+    height: 100%;
+    width: 100%;
+    background: #2e292688; 
+    clip-path: polygon(
+    100% 100%,  /* bottom-right */
+    65% 100%,   /* bottom-middle */
+    45% 0%,     /* top-middle */
+    100% 0%     /* top-right */
+    );
+
+    position: relative;
+}
+.bannerContent {
+    color: #e1e0e0; 
     font-size: 2rem;
-    margin-bottom: 2rem;
-    color:#4f46e5;
+    text-align: right;
+    margin-right: 7rem;
 }
 
-#session{
-    display: grid;
+.bannerContent h1 {
+    padding-top: 15%;
+    font-size: 4rem;
+    margin-bottom: 1rem;
 }
 
-/* Individual session cards */
-.session-card {
-    padding: 16px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    transition: background-color 0.3s ease;
-}
-
-
-/* Each field inside the card */
-.session-field {
-    font-size: 0.95rem;
-}.add-btn {
-    display: inline-block;
-    margin-top: 1.5rem;
-    padding: 0.6rem 1rem;
-    border-radius: 8px;
-    background: #4f46e5;
-    color: white;
-    text-decoration: none;
+.bannerContent button {
+    padding: .9rem 2rem;
+    font-size: 1.4rem;
     font-weight: 600;
-}
-
-/* Fixed add button */
-.add-session-btn {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 10px 16px;
-    background-color: #4f46e5;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 600;
-    z-index: 1000;
-}
-
-.add-session-btn-2 {
-    position: fixed;
-    top: 20px;
-    right: 300px;
-    padding: 10px 16px;
-    background-color: #4f46e5;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 600;
-    z-index: 1000;
-}
-
-/* Toggle button */
-#toggleBtn {
-    margin-bottom: 15px;
-    padding: 8px 14px;
-    border-radius: 6px;
-    border: none;
-    background-color: #e5e7eb;
-    cursor: pointer;
-    font-weight: 500;
-}
-
-#toggleBtn:hover {
-    background-color: #d1d5db;
-}
-
-/* Page container */
-form {
-    max-width: 500px;
-    background: #ffffff;
-    padding: 24px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-/* Headings */
-h1 {
-    margin-bottom: 10px;
-}
-
-h3 {
-    margin-top: 16px;
-    margin-bottom: 6px;
-    font-size: 1rem;
-}
-
-/* Inputs and dropdowns */
-select,
-input[type="number"] {
-    width: 100%;
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    font-size: 0.95rem;
-}
-
-/* Suggested times list */
-ul {
-    margin-bottom: 20px;
-    padding-left: 18px;
-}
-
-/* Submit button */
-#book {
-    margin-top: 20px;
-    width: 100%;
-    padding: 12px;
-    background-color: #4f46e5;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-#book:hover {
-    background-color: #4f46e5;
-}
-
-#title {
-    font-size: 1.2rem;
-}
-
-.session-card.good {
-    background-color: #b9ffde; 
-}
-
-.session-card.bad {
-    background-color: hsl(0, 77%, 88%); 
+    border-radius: 15px;
+    margin-right: 10%;
+    margin-top: 10%;
+    color: #f6c77c;
+    /* CSS Reset */
+    background: none;       
+    border: none;          
+    cursor: pointer;      
+    padding: 0;      
 }
 
 
-.page {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 24px;
-}
-
-/* Title */
-.page h1 {
-    font-size: 1.8rem;
-    margin-bottom: 24px;
-    font-weight: 700;
-}
-
-/* Recommendation cards */
-.recommendation-card {
-    background: #ffffff;
-    border-radius: 14px;
-    padding: 18px 22px;
-    margin-bottom: 16px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-    border-left: 6px solid #4f46e5;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-
-
-/* Card headings */
-.recommendation-card h2 {
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-/* Card text */
-.recommendation-card p {
-    margin: 4px 0;
-    font-size: 0.95rem;
-    color: #374151;
-}
-
-/* Probability highlight */
-.recommendation-card .probability {
-    margin-top: 10px;
-    font-weight: 700;
-    color: #16a34a;
-    font-size: 1rem;
-}
-
-/* Feature importance section */
-.feature-importance {
-    margin-top: 40px;
-}
-
-/* Feature importance table */
-.feature-importance table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 12px;
-    background: #ffffff;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-.feature-importance th,
-.feature-importance td {
-    padding: 12px 14px;
-    text-align: left;
-    font-size: 0.95rem;
-}
-
-.feature-importance th {
-    background-color: #f3f4f6;
-    font-weight: 600;
-}
-
-.feature-importance tr:nth-child(even) {
-    background-color: #fafafa;
-}
-
-/* NAV BAR */
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 64px;
-    background-color: #ffffff3a;
+    background-color: #00000000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 24px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     z-index: 2000;
 }
 
 /* Left title */
 .nav-left {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #4f46e5;
+    font-weight: 600;
+    color: #f6c77c;
+    font-size: 2rem;
+
 }
 
 .nav-right{
@@ -268,15 +94,77 @@ ul {
     padding: 20px;
     text-decoration: none;
     font-weight: 600;
-    color: #374151;
+    color: #cfd1d3;
     font-size: 1.3rem;
 }
 
 .nav-right a:hover {
-    color: #4f46e5;
+    color: #f6c77c;
 }
 
-/* Push page content below navbar */
-.content {
-    padding-top: 90px;
+/* New Page (Log ) */
+/* Form container styling */
+.form-container {
+    max-width: 600px;
+    margin: 5rem auto 4rem auto; /* pull up near banner */
+    background: #292523;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    color: #e1e0e0;
+}
+
+.form-container .form-group {
+    margin-bottom: 1.8rem;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.form-container select {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #2e2926;
+    color: #e1e0e0;
+    cursor: pointer;
+}
+
+
+
+/* Submit Button styling */
+.submit-btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 15px;
+    background: transparent;
+    border: 2px solid #f6c77c;
+    color: #f6c77c;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.submit-btn:hover {
+    transition: all 0.54s ease-in-out;
+    box-shadow: 0 12px 30px rgb(255, 255, 255);
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(
+        180deg,
+        #1c2332 0%,
+        #121726 40%,
+        #080a12 70%,
+        #000000 100%
+    );
 }
