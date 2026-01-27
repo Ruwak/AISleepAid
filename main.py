@@ -192,7 +192,7 @@ def book():
         model = ML_Model()
 
         # redirect user back home after they log the data
-        return redirect(url_for('home'))
+        return redirect(url_for('recommendations'))
 
     return render_template(
         "book.html",

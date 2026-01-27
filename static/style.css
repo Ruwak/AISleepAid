@@ -410,6 +410,41 @@ body {
     display: flex;
 }
 
+.footer {
+    background: rgba(28, 35, 50, 0.95);
+    padding: 3rem 1.5rem;
+    color: #b7b7b7;
+}
+
+.footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2.5rem;
+}
+
+.footer-brand h3 {
+    color: #f6c77c;
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    display: block;
+    text-decoration: none;
+    color: #b7b7b7;
+    margin-bottom: 0.6rem;
+}
+
+.footer-links a:hover {
+    color: #f6c77c;
+}
+
+.footer-meta {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
 /* ===========================
    MOBILE RESPONSIVE FIXES
    =========================== */

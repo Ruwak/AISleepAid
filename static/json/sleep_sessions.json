@@ -3638,5 +3638,21 @@
         "AlcoholConsumed": "none",
         "CaffeineConsumed": "none",
         "Effectiveness": "true"
+    },
+    {
+        "SleepTime": "late",
+        "SleepLength": "medium",
+        "Awakenings": "high",
+        "AlcoholConsumed": "high",
+        "CaffeineConsumed": "high",
+        "Effectiveness": "false"
+    },
+    {
+        "SleepTime": "early",
+        "SleepLength": "short",
+        "Awakenings": "none",
+        "AlcoholConsumed": "none",
+        "CaffeineConsumed": "none",
+        "Effectiveness": "true"
     }
 ]
