@@ -77,6 +77,8 @@ html, body {
     z-index: 2000;
 }
 
+
+
 /* Left title */
 .nav-left {
     font-weight: 600;
@@ -102,11 +104,12 @@ html, body {
     color: #f6c77c;
 }
 
+
 /* New Page (Log ) */
 /* Form container styling */
 .form-container {
     max-width: 600px;
-    margin: 5rem auto 4rem auto; /* pull up near banner */
+    margin: 8rem auto 4rem auto; /* pull up near banner */
     background: #292523;
     padding: 2rem 3rem;
     border-radius: 20px;
@@ -115,6 +118,7 @@ html, body {
 
 .form-container .form-group {
     margin-bottom: 1.8rem;
+
 }
 
 .form-container label {
@@ -395,12 +399,64 @@ body {
     margin-top: 0.4rem;
 }
 
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    color: #f6c77c;
+    cursor: pointer;
+}
+
+.nav-right {
+    display: flex;
+}
+
 /* ===========================
    MOBILE RESPONSIVE FIXES
    =========================== */
 @media (max-width: 768px) {
 
+    .nav-right {
+        display: none;
+    }
+
     /* ----- Navbar ----- */
+    .hamburger {
+        display: block;
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        background: rgba(46, 41, 38, 0.75);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-right {
+        position: absolute;
+        top: 64px;
+        left: 0;
+        width: 100%;
+        background: rgba(46, 41, 38, 0.75);
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 0;
+        z-index: 1999;
+    }
+
+    .nav-right a {
+        padding: 1.2rem;
+        font-size: 1.2rem;
+        display: block;
+    }
+
+    .nav-right a:hover {
+        color: #f6c77c;
+    }
+
+    .nav-right.show {
+        display: flex;
+    }
     
     /* ----- Banner ----- */
     .bannerImg {
@@ -433,6 +489,7 @@ body {
     .form-container {
         margin: 3rem 1rem;
         padding: 1.5rem;
+
     }
 
     /* ----- Recommendation Page ----- */

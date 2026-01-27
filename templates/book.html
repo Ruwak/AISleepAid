@@ -6,67 +6,66 @@
 
 {% block content %}
 <!-- Form Section -->
-<div id="background-book ">
-    <div class="form-container">
-        <form method="POST" action="{{ url_for('book') }}">
-            
-            <div class="form-group">
-                <label for="SleepLength">Sleep Length:</label>
-                <select name="SleepLength" id="SleepLength">
-                    {% for SleepLength in sleep_lengths %}
-                        <option value="{{ SleepLength }}">{{ SleepLength }}</option>
-                    {% endfor %}
-                </select>
-            </div>
+<br>
+<div class="form-container">
+    <form method="POST" action="{{ url_for('book') }}">
+        
+        <div class="form-group">
+            <label for="SleepLength">Sleep Length:</label>
+            <select name="SleepLength" id="SleepLength">
+                {% for SleepLength in sleep_lengths %}
+                    <option value="{{ SleepLength }}">{{ SleepLength }}</option>
+                {% endfor %}
+            </select>
+        </div>
 
-            <div class="form-group">
-                <label for="CaffeineConsumed">Caffeination Level:</label>
-                <select name="CaffeineConsumed" id="CaffeineConsumed">
-                    {% for CaffeineConsumed in caffeine_intakes %}
-                        <option value="{{ CaffeineConsumed }}">{{ CaffeineConsumed }}</option>
-                    {% endfor %}
-                </select>
-            </div>
+        <div class="form-group">
+            <label for="CaffeineConsumed">Caffeination Level:</label>
+            <select name="CaffeineConsumed" id="CaffeineConsumed">
+                {% for CaffeineConsumed in caffeine_intakes %}
+                    <option value="{{ CaffeineConsumed }}">{{ CaffeineConsumed }}</option>
+                {% endfor %}
+            </select>
+        </div>
 
-            <div class="form-group">
-                <label for="AlcoholConsumed">Alcohol Consumed:</label>
-                <select name="AlcoholConsumed" id="AlcoholConsumed">
-                    {% for AlcoholConsumed in is_alcoholconsumeded %}
-                        <option value="{{ AlcoholConsumed }}">{{ AlcoholConsumed }}</option>
-                    {% endfor %}
-                </select>
-            </div>
+        <div class="form-group">
+            <label for="AlcoholConsumed">Alcohol Consumed:</label>
+            <select name="AlcoholConsumed" id="AlcoholConsumed">
+                {% for AlcoholConsumed in is_alcoholconsumeded %}
+                    <option value="{{ AlcoholConsumed }}">{{ AlcoholConsumed }}</option>
+                {% endfor %}
+            </select>
+        </div>
 
-            <div class="form-group">
-                <label for="Awakenings">Awakenings:</label>
-                <select name="Awakenings" id="Awakenings">
-                    {% for Awakenings in awakeningss %}
-                        <option value="{{ Awakenings }}">{{ Awakenings }}</option>
-                    {% endfor %}
-                </select>
-            </div>
+        <div class="form-group">
+            <label for="Awakenings">Awakenings:</label>
+            <select name="Awakenings" id="Awakenings">
+                {% for Awakenings in awakeningss %}
+                    <option value="{{ Awakenings }}">{{ Awakenings }}</option>
+                {% endfor %}
+            </select>
+        </div>
 
-            <div class="form-group">
-                <label for="SleepTime">Sleep Time:</label>
-                <select name="SleepTime" id="SleepTime">
-                    {% for sleepTime in sleep_times %}
-                        <option value="{{ sleepTime }}">{{ sleepTime }}</option>
-                    {% endfor %}
-                </select>
-            </div>
+        <div class="form-group">
+            <label for="SleepTime">Sleep Time:</label>
+            <select name="SleepTime" id="SleepTime">
+                {% for sleepTime in sleep_times %}
+                    <option value="{{ sleepTime }}">{{ sleepTime }}</option>
+                {% endfor %}
+            </select>
+        </div>
 
-            <div class="form-group">
-                <label for="effectiveness">Effectiveness:</label>
-                <select name="effectiveness" id="effectiveness">
-                    {% for effectiveness in effectivenesses %}
-                        <option value="{{ effectiveness }}">{{ effectiveness }}</option>
-                    {% endfor %}
-                </select>
-            </div>
+        <div class="form-group">
+            <label for="effectiveness">Effectiveness:</label>
+            <select name="effectiveness" id="effectiveness">
+                {% for effectiveness in effectivenesses %}
+                    <option value="{{ effectiveness }}">{{ effectiveness }}</option>
+                {% endfor %}
+            </select>
+        </div>
 
-            <button id="book" type="submit" class="submit-btn">Submit Data</button>
+        <button id="book" type="submit" class="submit-btn">Submit Data</button>
 
-        </form>
-    </div>
+    </form>
 </div>
 {% endblock %}
