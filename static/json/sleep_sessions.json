@@ -3630,5 +3630,13 @@
         "AlcoholConsumed": "none",
         "CaffeineConsumed": "none",
         "Effectiveness": "true"
+    },
+    {
+        "SleepTime": "early",
+        "SleepLength": "short",
+        "Awakenings": "none",
+        "AlcoholConsumed": "none",
+        "CaffeineConsumed": "none",
+        "Effectiveness": "true"
     }
 ]
