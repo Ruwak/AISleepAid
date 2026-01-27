@@ -23,5 +23,20 @@
   "short_name": "Sleepify",
   "start_url": "HTTPS/lolz",
   "scope": "/",
-  "description": "A app to help you sleep well"
+  "description": "A app to help you sleep well",
+
+      "screenshots": [
+        {
+          "src": "ss/screenshot1.png",
+          "sizes": "1902x907",
+          "type": "image/png",
+          "form_factor": "wide",
+          "purpose": "any"
+        },
+        {
+          "src": "ss/screenshot2.png",
+          "sizes": "416x826",
+          "type": "image/png",
+          "purpose": "any"
+        }]
 }
