@@ -6,6 +6,8 @@
     <title>{% block title %}Sleepify{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="icon" type="image/x-icon" href="/static/favicons/thinFavicon.ico"> <!-- favicon -->
+    <link rel="manifest" href="/static/json/manifest.json">
+
 </head>
 
 <body class="{% block body_class %}{% endblock %}">
@@ -33,7 +35,17 @@
                 mobileMenu.classList.toggle("show");
             }
         }
+    </script>
+        <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(reg => console.log('Service Worker registered', reg))
+                    .catch(err => console.log('Service Worker registration failed', err));
+            });
+        }
         </script>
+
 
     <!-- display page specific template -->
     <main class="content">

@@ -21,20 +21,20 @@
   "lang": "en-US",
   "name": "Sleepify",
   "short_name": "Sleepify",
-  "start_url": "HTTPS/lolz",
+  "start_url": "https://ruwak09.eu.pythonanywhere.com/",
   "scope": "/",
   "description": "A app to help you sleep well",
 
       "screenshots": [
         {
-          "src": "ss/screenshot1.png",
+          "src": "/static/screenshots/screenshot1.png",
           "sizes": "1147x644",
           "type": "image/png",
           "form_factor": "wide",
           "purpose": "any"
         },
         {
-          "src": "ss/screenshot2.png",
+          "src": "/static/screenshots/screenshot2.png",
           "sizes": "410x817",
           "type": "image/png",
           "purpose": "any"

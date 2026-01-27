@@ -10,12 +10,41 @@
             <div class="bannerContent">
                 <h1>Welcome to Sleepify</h1>
                 <p>  Your personal assistant for effective sleep</p>
+                    <button id="install-btn">&#x2B07; Install Our App</button>
 
-                <button>  &#x2B07; Install Our App</button>
                 
             </div>
 
         </div>
     </div>
-</div>
+    </div>
+    <script>
+    let deferredPrompt;
+    const installBtn = document.getElementById('install-btn');
+
+    // Hide the button initially
+    installBtn.style.display = 'none';
+
+    // Listen for the beforeinstallprompt event
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault(); // Prevent automatic prompt
+        deferredPrompt = e;
+        // Show the install button
+        installBtn.style.display = 'inline-block';
+    });
+
+    installBtn.addEventListener('click', async () => {
+        if (!deferredPrompt) return;
+        deferredPrompt.prompt(); // Show the prompt
+        const { outcome } = await deferredPrompt.userChoice;
+        if (outcome === 'accepted') {
+            console.log('User accepted the PWA install');
+        } else {
+            console.log('User dismissed the PWA install');
+        }
+        deferredPrompt = null;
+        installBtn.style.display = 'none'; // hide button after use
+    });
+    </script>
+
 {% endblock %}
