@@ -150,12 +150,13 @@ html, body {
     color: #f6c77c;
     cursor: pointer;
     width: 100%;
+    transition: all 0.4s ease;
 }
 
 
 .submit-btn:hover {
-    transition: all 0.54s ease-in-out;
-    box-shadow: 0 12px 30px rgb(255, 255, 255);
+    box-shadow: 0 0 30px rgba(246,199,124,0.4);
+    transform: translateY(-2px);
 }
 
 body {
@@ -168,3 +169,322 @@ body {
         #000000 100%
     );
 }
+
+/* ===== Recommendations Page ===== */
+
+.recs-page {
+    max-width: 1200px;
+    margin: 6rem auto;
+    padding: 0 2rem;
+    color: #e1e0e0;
+}
+
+.recs-title {
+    font-size: 3.2rem;
+    color: #f6c77c;
+    text-align: center;
+}
+
+.recs-subtitle {
+    text-align: center;
+    margin-top: 0.8rem;
+    color: #b5b7ba;
+    font-size: 1.2rem;
+}
+
+/* Cards */
+.recs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+    margin-top: 4rem;
+}
+
+.rec-card {
+    background: rgba(46, 41, 38, 0.85);
+    border-radius: 22px;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+
+.rec-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    color: #f6c77c;
+}
+
+/* Key-value rows */
+.rec-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.rec-item span {
+    color: #b7b7b7;
+}
+
+.rec-item strong {
+    color: #ffffff;
+}
+
+/* Feature Importance */
+.importance-box {
+    margin-top: 6rem;
+    background: rgba(28, 35, 50, 0.75);
+    padding: 3rem;
+    border-radius: 24px;
+}
+
+.importance-box h2 {
+    color: #f6c77c;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.importance-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.importance-box th,
+.importance-box td {
+    padding: 1rem;
+    text-align: left;
+}
+
+.importance-box thead {
+    border-bottom: 2px solid #f6c77c;
+}
+
+
+
+
+/* Empty state */
+.no-recs {
+    margin-top: 4rem;
+    text-align: center;
+    color: #aaa;
+    font-size: 1.2rem;
+}
+
+/*  Magic Predictor Page  */
+
+.magic-page {
+    max-width: 700px;
+    margin: 7rem auto;
+    padding: 0 2rem;
+    color: #e1e0e0;
+}
+
+/* Title */
+.magic-title {
+    font-size: 3rem;
+    text-align: center;
+    color: #f6c77c;
+}
+
+.magic-subtitle {
+    text-align: center;
+    margin-top: 0.8rem;
+    margin-bottom: 3rem;
+    color: #b5b7ba;
+    font-size: 1.2rem;
+}
+
+/* Form Card */
+.magic-card {
+    background: rgba(46, 41, 38, 0.9);
+    padding: 3rem;
+    border-radius: 24px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+/* Form Groups */
+.magic-group {
+    margin-bottom: 1.8rem;
+}
+
+.magic-group label {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.magic-group select {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    border: none;
+    background: #2e2926;
+    color: #e1e0e0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Button */
+.magic-btn {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 16px;
+    background: transparent;
+    border: 2px solid #f6c77c;
+    color: #f6c77c;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.magic-btn:hover {
+    box-shadow: 0 0 30px rgba(246,199,124,0.4);
+    transform: translateY(-2px);
+}
+
+/* Prediction Result */
+.prediction-card {
+    margin-top: 4rem;
+    padding: 3rem;
+    background: rgba(28, 35, 50, 0.8);
+    border-radius: 26px;
+    text-align: center;
+    animation: fadeUp 0.8s ease forwards;
+}
+
+.prediction-card h2 {
+    color: #f6c77c;
+    margin-bottom: 2rem;
+}
+
+/* Grid */
+.prediction-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4rem;
+    margin-bottom: 3rem;
+}
+
+.prediction-grid p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.05rem;
+}
+
+.prediction-grid span {
+    color: #b7b7b7;
+}
+
+/* Score */
+.prediction-score {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #f6c77c;
+}
+
+.prediction-score span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #b5b7ba;
+    margin-top: 0.4rem;
+}
+
+/* ===========================
+   MOBILE RESPONSIVE FIXES
+   =========================== */
+@media (max-width: 768px) {
+
+    /* ----- Navbar ----- */
+    
+    /* ----- Banner ----- */
+    .bannerImg {
+        height: 100vh; /* instead of 80rem */
+    }
+
+    .bannerOverlay {
+        clip-path: none; /* remove diagonal for mobile */
+        background: rgba(46, 41, 38, 0.75);
+    }
+
+    .bannerContent {
+        text-align: center;
+        margin: 0;
+        padding: 0 1.5rem;
+    }
+
+    .bannerContent h1 {
+        padding-top: 40%;
+        font-size: 2.5rem;
+    }
+
+    .bannerContent button {
+        margin: 2rem auto 0 auto;
+        display: inline-block;
+        font-size: 1.2rem;
+    }
+
+    /* ----- Forms ----- */
+    .form-container {
+        margin: 3rem 1rem;
+        padding: 1.5rem;
+    }
+
+    /* ----- Recommendation Page ----- */
+    .recs-page {
+        margin: 4rem auto;
+        padding: 0 1rem;
+    }
+
+    .recs-title {
+        font-size: 2.2rem;
+    }
+
+    .recs-subtitle {
+        font-size: 1rem;
+    }
+
+    .rec-card {
+        padding: 1.6rem;
+    }
+
+    /* ----- Importance Table ----- */
+    .importance-box {
+        padding: 1.8rem 1rem;
+    }
+
+    .importance-box table {
+        font-size: 0.9rem;
+    }
+
+    /* ----- Magic Predictor ----- */
+    .magic-page {
+        margin: 4rem auto;
+        padding: 0 1rem;
+    }
+
+    .magic-title {
+        font-size: 2.2rem;
+    }
+
+    .magic-card {
+        padding: 2rem 1.5rem;
+    }
+
+    /* ----- Prediction Card ----- */
+    .prediction-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .prediction-score {
+        font-size: 2.5rem;
+    }
+}
+
+
+
