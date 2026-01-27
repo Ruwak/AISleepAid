@@ -1,4 +1,4 @@
-#####################################################
+##################################################
 # Program: Sleep Buddy (SleepAid)
 # Author: Tony, Zac, Mia, Kuwar
 # Date: 27/1/2026
@@ -85,6 +85,7 @@ def org_data():
 
     # return processed data
     return processed
+
 
 # find recomendations
 def recommend_study_time_brute_force(model):
